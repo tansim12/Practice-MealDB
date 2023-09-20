@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Components/home/Home.jsx";
@@ -10,6 +9,7 @@ import Seafood from "./Components/Seafood/Seafood.jsx";
 import SeafoodSingleDiv from "./Components/Seafood/SeafoodSingleDiv.jsx";
 import Error404 from "./Components/Error404/Error404.jsx";
 import HomeChickenBreast from "./Components/home/HomeChickenBreast.jsx";
+import MatchAreaFood from "./Components/Area/MatchAreaFood";
 
 // import CategorySingleItemDiv from "./Components/Category/CategorySingleItemDiv.jsx";
 
@@ -80,6 +80,18 @@ const router = createBrowserRouter([
           return data;
         },
         element: <SeafoodSingleDiv></SeafoodSingleDiv>,
+      },
+      // flag section
+      {
+        path: "/areaFood/:name",
+        loader: async ({ params }) => {
+          const resp = await fetch(
+            `https://www.themealdb.com/api/json/v1/1/filter.php?a=${params.name}`
+          );
+          const data = await resp.json();
+          return data;
+        },
+        element: <MatchAreaFood></MatchAreaFood>,
       },
     ],
   },

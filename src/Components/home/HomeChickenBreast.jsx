@@ -1,5 +1,6 @@
 import { useLoaderData } from "react-router-dom";
 import HomeChickenDiv from "./HomeChickenDiv";
+import AreaImgDiv from "../Area/AreaImgDiv";
 
 const HomeChickenBreast = () => {
   const data = useLoaderData();
@@ -13,6 +14,10 @@ const HomeChickenBreast = () => {
         {data.meals.map((dataDetails, index) => (
           <HomeChickenDiv key={index} dataDetails={dataDetails}></HomeChickenDiv>
         ))}
+      </div>
+      {/* flag div  */}
+      <div className="my-10">
+        <AreaImgDiv></AreaImgDiv>
       </div>
     </>
   );

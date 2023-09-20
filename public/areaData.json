@@ -1,0 +1,268 @@
+{
+  "meals": [
+    {
+      "id": 1,
+      "name": "Meal 1",
+      "area": {
+        "area_name": "British",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/gb.png"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Meal 2",
+      "area": {
+        "area_name": "American",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/us.png"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Meal 3",
+      "area": {
+        "area_name": "French",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/fr.png"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Meal 4",
+      "area": {
+        "area_name": "Canadian",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/ca.png"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Meal 5",
+      "area": {
+        "area_name": "Jamaican",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/jm.png"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Meal 6",
+      "area": {
+        "area_name": "Chinese",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/cn.png"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Meal 7",
+      "area": {
+        "area_name": "Dutch",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/nl.png"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Meal 8",
+      "area": {
+        "area_name": "Egyptian",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/eg.png"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Meal 9",
+      "area": {
+        "area_name": "Greek",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/gr.png"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Meal 10",
+      "area": {
+        "area_name": "Indian",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/in.png"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Meal 11",
+      "area": {
+        "area_name": "Irish",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/ie.png"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Meal 12",
+      "area": {
+        "area_name": "Italian",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/it.png"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Meal 13",
+      "area": {
+        "area_name": "Japanese",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/it.png"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Meal 14",
+      "area": {
+        "area_name": "Kenyan",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/kn.png"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Meal 15",
+      "area": {
+        "area_name": "Malaysian",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/my.png"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Meal 16",
+      "area": {
+        "area_name": "Mexican",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/mx.png"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Meal 17",
+      "area": {
+        "area_name": "Moroccan",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/ma.png"
+      }
+    },
+    {
+      "id": 18,
+      "name": "Meal 18",
+      "area": {
+        "area_name": "Croatian",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/hr.png"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Meal 19",
+      "area": {
+        "area_name": "Norwegian",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/no.png"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Meal 20",
+      "area": {
+        "area_name": "Portuguese",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/pt.png"
+      }
+    },
+    {
+      "id": 21,
+      "name": "Meal 21",
+      "area": {
+        "area_name": "Russian",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/ru.png"
+      }
+    },
+    {
+      "id": 22,
+      "name": "Meal 22",
+      "area": {
+        "area_name": "Argentinian",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/ar.png"
+      }
+    },
+    {
+      "id": 23,
+      "name": "Meal 23",
+      "area": {
+        "area_name": "Spanish",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/es.png"
+      }
+    },
+    {
+      "id": 24,
+      "name": "Meal 24",
+      "area": {
+        "area_name": "Slovakian",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/sk.png"
+      }
+    },
+    {
+      "id": 25,
+      "name": "Meal 25",
+      "area": {
+        "area_name": "Thai",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/th.png"
+      }
+    },
+    {
+      "id": 26,
+      "name": "Meal 26",
+      "area": {
+        "area_name": "Indian",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/sa.png"
+      }
+    },
+    {
+      "id": 27,
+      "name": "Meal 27",
+      "area": {
+        "area_name": "Vietnamese",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/vn.png"
+      }
+    },
+    {
+      "id": 28,
+      "name": "Meal 28",
+      "area": {
+        "area_name": "Turkish",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/tr.png"
+      }
+    },
+    {
+      "id": 29,
+      "name": "Meal 29",
+      "area": {
+        "area_name": "Syrian",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/sy.png"
+      }
+    },
+    {
+      "id": 30,
+      "name": "Meal 30",
+      "area": {
+        "area_name": "Indian",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/dz.png"
+      }
+    },
+    {
+      "id": 31,
+      "name": "Meal 31",
+      "area": {
+        "area_name": "Tunisian",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/tn.png"
+      }
+    },
+    {
+      "id": 32,
+      "name": "Meal 32",
+      "area": {
+        "area_name": "Polish",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/pl.png"
+      }
+    },
+    {
+      "id": 33,
+      "name": "Meal 33",
+      "area": {
+        "area_name": "Filipino",
+        "area_img": "https://www.themealdb.com/images/icons/flags/big/64/ph.png"
+      }
+    }
+  ]
+}
