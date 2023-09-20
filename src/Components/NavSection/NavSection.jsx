@@ -7,17 +7,44 @@ const NavSection = () => {
         <img src="https://www.themealdb.com/images/logo-small.png" alt="" />
       </div>
       <div className="space-x-4">
-      <NavLink to="/filterSeafood"> <button className=" text-white font-bold px-2 py-1 rounded-md bg-primary">
-          Seafood
-        </button></NavLink>
-      <NavLink to="/category"> <button className=" text-white font-bold px-2 py-1 rounded-md bg-primary">
-          All Category
-        </button></NavLink>
-      <NavLink to={"/"}>
-        <button className=" text-white font-bold px-2 py-1 rounded-md bg-primary ">
-          Home
-        </button>
-      </NavLink>
+        <NavLink
+          to="/filterSeafood"
+          className={({ isActive, isPending }) =>
+            isActive
+              ? "btn btn-sm bg-primary text-white font-bold hover:bg-red-600"
+              : isPending
+              ? "pending"
+              : " btn btn-sm"
+          }
+        >
+          {" "}
+          <button>Seafood</button>
+        </NavLink>
+        <NavLink
+          to="/category"
+          className={({ isActive, isPending }) =>
+            isActive
+              ? "btn btn-sm bg-primary text-white font-bold hover:bg-red-600"
+              : isPending
+              ? "pending"
+              : " btn btn-sm"
+          }
+        >
+          {" "}
+          <button>All Category</button>
+        </NavLink>
+        <NavLink
+          to={"/"}
+          className={({ isActive, isPending }) =>
+            isActive
+              ? "btn btn-sm bg-primary text-white font-bold hover:bg-red-600"
+              : isPending
+              ? "pending"
+              : " btn btn-sm"
+          }
+        >
+          <button>Home</button>
+        </NavLink>
       </div>
     </div>
   );

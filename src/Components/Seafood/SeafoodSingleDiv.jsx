@@ -1,7 +1,9 @@
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData, useNavigate } from "react-router-dom";
 
 const SeafoodSingleDiv = () => {
   const data = useLoaderData();
+  const navigate = useNavigate()
+  const back = ()=> navigate(-1)
   // console.log(data.meals);
   return (
     <>
@@ -38,6 +40,9 @@ const SeafoodSingleDiv = () => {
           </div>
         ))}
       </div>
+      <button onClick={back} className=" text-white font-bold btn btn-lg btn-active hover:bg-primary rounded-md bg-orange-500 ">
+        Back
+      </button>
     </>
   );
 };
